@@ -43,13 +43,13 @@ section{
     justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .logo img{
     width: 80px;
     height: auto;
 }
-
 .navbar a{
     margin: 0 1rem;
     font-size: 1.8rem;
@@ -61,4 +61,61 @@ section{
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.2rem;
     font-size: 1.9rem;
+}
+
+.btn{
+    background: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.home-container{
+    background: url("./Images/academia.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content{
+    max-width: 100rem;
+}
+
+.content h3{
+    color: #fff;
+    font-size: 6rem;
+}
+
+.content p{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+}
+
+.title{
+    font-size: 5rem;
+    color: var(--main-color);
+}
+
+.title span{
+    color: #fff;
+    
+}
+
+.Sobre .row{
+    display: flex;
+    align-content: center;
+    gap: 1.5rem;
+}
+
+.container-image img {
+  width: 70%
 }
