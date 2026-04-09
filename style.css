@@ -72,8 +72,13 @@ section{
     display: inline-block;
 }
 
+.btn:hover{
+    letter-spacing: 0.1rem;
+}
+
 .home-container{
-    background: url("./Images/academia.png");
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./Images/academia.png");
     background-position: center;
     background-size: cover;
 }
@@ -103,6 +108,7 @@ section{
 .title{
     font-size: 5rem;
     color: var(--main-color);
+    margin-bottom: 1rem;
 }
 
 .title span{
@@ -112,10 +118,70 @@ section{
 
 .Sobre .row{
     display: flex;
-    align-content: center;
-    gap: 1.5rem;
+    align-items: center;
+    gap: 2rem;
+    width: 75%;
+    margin: 0 auto;
+    
 }
 
 .container-image img {
-  width: 70%
+  width: 100%;
+  height: auto;
+}
+
+.Sobre .row .content{
+    padding: 4rem;
+}
+
+.Sobre .row .content h2{
+    font-size: 5rem;
+}
+
+.Sobre .row .content p{
+    font-size: 2rem;
+    padding-right: 1rem 2rem;
+    line-height: 1.8;
+}
+
+.Modalidades .title{
+    text-align: center;
+}
+
+.Modalidades .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3rem;
+    padding: 0 10rem;
+}
+
+.Modalidades .box-container .box{
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+    border: var(--border);
+    cursor: pointer;
+}
+
+.Modalidades .box-container .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 5%;
+}
+
+.Modalidades .box-container .box:hover{
+    background-color: rgba(255, 98, 0, 0.2);
+}
+
+.Modalidades .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0rem;
+}
+
+.Endereço{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
