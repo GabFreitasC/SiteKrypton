@@ -12,8 +12,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    transition: 0.1s linear;
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 body{
@@ -52,7 +51,7 @@ section{
 }
 .navbar a{
     margin: 0 1rem;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: #fff;
 }
 
@@ -66,21 +65,27 @@ section{
 .btn{
     background: var(--main-color);
     color: #fff;
-    padding: 1rem 3rem;
-    font-size: 1.7rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
     margin-top: 1rem;
     display: inline-block;
+    border-radius: 0.3rem;
 }
 
 .btn:hover{
-    letter-spacing: 0.1rem;
+    font-size: 1.7rem;
+    background-color: #cc4e00;
 }
 
 .home-container{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./Images/academia.png");
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url("./Images/academia.png");
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .home-container section{
@@ -90,19 +95,15 @@ section{
 }
 
 .home-container .content h3{
-    font-size: 7rem;
+    font-size: 8rem;
     color: var(--main-color);
 }
 
 .home-container .content h3 span:not(.krypton){
     color: transparent;
-    -webkit-text-stroke: 0.5px var(--main-color);
-    font-size: 4.5rem;
+    -webkit-text-stroke: 0.8px var(--main-color);
+    font-size: 5rem;
     font-style: italic;
-}
-
-.krypton{
-    font-family: "Tilt Warp", sans-serif;
 }
 
 .content{
@@ -115,8 +116,8 @@ section{
 }
 
 .content p{
-    color: #fff;
-    font-size: 2rem;
+    color: #ffffff;
+    font-size: 1.8rem;
     font-weight: 100;
     line-height: 1.8;
 }
@@ -127,18 +128,16 @@ section{
     margin-bottom: 1rem;
 }
 
-.title span{
-    color: #fff;
-    
-}
-
 .Sobre .row{
     display: flex;
     align-items: center;
     gap: 2rem;
     width: 75%;
     margin: 0 auto;
-    
+}
+
+.Sobre .row .content{
+    padding: 5rem;
 }
 
 .container-image img {
@@ -146,18 +145,18 @@ section{
   height: auto;
 }
 
-.Sobre .row .content{
-    padding: 4rem;
-}
-
 .Sobre .row .content h2{
     font-size: 5rem;
 }
 
 .Sobre .row .content p{
-    font-size: 2rem;
+    font-size: 1.9rem;
     padding-right: 1rem 2rem;
     line-height: 1.8;
+}
+
+.Modalidades{
+    padding: 5rem;
 }
 
 .Modalidades .title{
